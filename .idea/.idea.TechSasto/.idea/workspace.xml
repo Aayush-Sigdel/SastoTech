@@ -9,98 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5e134a-3f50-4705-b793-528a8369c7c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Models/Laptops.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/About.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/About.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/FaqPage.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/FaqPage.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Laptop.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Laptop.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Mobile.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Mobile.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Privacy.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/SastoTech.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery/dist/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SastoTech/wwwroot/lib/jquery/dist/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SastoTech/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SastoTech/SastoTech.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SastoTech/SastoTech.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,8 +22,14 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -124,13 +41,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.TechSasto: http.executor": "Run",
+    "Docker.SastoTech/Dockerfile (1).executor": "Run",
+    "Docker.SastoTech/Dockerfile (2).executor": "Run",
+    "Docker.SastoTech/Dockerfile.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/home/batman/Documents/Projects/dotnetOCEM",
     "node.js.detected.package.eslint": "true",
@@ -147,7 +67,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.TechSasto: http">
+  <component name="RunManager" selected="Docker.SastoTech/Dockerfile (2)">
     <configuration name="TechSasto: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SastoTech/SastoTech.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net9.0" />
@@ -180,6 +100,57 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="SastoTech/Dockerfile (1)" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="SastoTech/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SastoTech/Dockerfile (2)" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="SastoTech/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SastoTech/Dockerfile" type="docker-deploy" factoryName="dockerfile">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="sastotech" />
+          <option name="containerName" value="sastotech" />
+          <option name="contextFolderPath" value="." />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="SastoTech/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.SastoTech/Dockerfile (2)" />
+        <item itemvalue="Docker.SastoTech/Dockerfile (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -192,16 +163,28 @@
       <workItem from="1771672563019" duration="449000" />
       <workItem from="1771677727726" duration="4480000" />
       <workItem from="1771683202327" duration="721000" />
-      <workItem from="1771683970259" duration="4437000" />
+      <workItem from="1771683970259" duration="7235000" />
     </task>
+    <task id="LOCAL-00001" summary="oky">
+      <option name="closed" value="true" />
+      <created>1771688982674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771688982675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="oky" />
+    <option name="LAST_COMMIT_MESSAGE" value="oky" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
