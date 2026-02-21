@@ -1,0 +1,53 @@
+@page
+@model SastoTech.Pages.About
+@{
+    ViewData["Title"] = "About Us";
+}
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-800">Our Story</h1>
+        <p class="text-muted fs-5">Elevating your digital lifestyle with premium tech since 2026.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-none p-5 product-card text-center">
+                <div class="mb-4">
+                    <i class="bi bi-bullseye text-dark fs-1"></i>
+                </div>
+                <h2 class="h4 fw-bold mb-3">Our Mission</h2>
+                <p class="text-muted mb-0">To help the Nepalese community find genuine technology deals. We aim to make premium tech affordable by tracking prices and uncovering the best discounts available in the market.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-none p-5 product-card text-center">
+                <div class="mb-4">
+                    <i class="bi bi-search text-dark fs-1"></i>
+                </div>
+                <h2 class="h4 fw-bold mb-3">What We Do</h2>
+                <p class="text-muted mb-0">We are a deal aggregator. We do not sell devices ourselves. Instead, we scan various online and offline stores in Nepal to bring you the best prices on laptops and mobiles in one place.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-none p-5 product-card text-center">
+                <div class="mb-4">
+                    <i class="bi bi-heart text-dark fs-1"></i>
+                </div>
+                <h2 class="h4 fw-bold mb-3">Why SastoTech</h2>
+                <p class="text-muted mb-0">We prioritize quality and savings. Every deal is manually verified by our team. We use historical data to ensure that "sale" prices are actually record lows for Nepal.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 pt-5 text-center">
+        <div class="card border-0 bg-white p-5 rounded-md shadow-lg product-card">
+            <h3 class="fw-bold mb-3 text-main">Ready to find the best deals?</h3>
+            <p class="mb-4 text-muted">Start exploring the best tech prices available in Nepal today.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a asp-page="/Laptop" class="btn btn-primary px-4 py-2 fw-bold">View Laptop Deals</a>
+                <a asp-page="/Mobile" class="btn btn-outline-primary px-4 py-2">View Mobile Deals</a>
+            </div>
+        </div>
+    </div>
+</div>

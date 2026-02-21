@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+        @(ViewData["Title"] != null ? $"{ViewData["Title"]} - SastoTech" : "SastoTech")
+    </title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/svg+xml" href="~/TitleLogo.svg">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/SastoTech.styles.css" asp-append-version="true"/>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom mb-0 sticky-top py-0">
+        <div class="container mx-md-auto p-0 m-0">
+            <a class="navbar-brand d-flex align-items-center" asp-area="" asp-page="/Index">
+                <img src="~/Logo.svg" alt="SastoTech Logo" height="60" class="me-2" asp-append-version="true">
+                <span class="fs-4">SastoTech</span>
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-lg-inline-flex justify-content-end">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link px-3 @(ViewContext.RouteData.Values["page"]?.ToString() == "/Index" ? "active" : "")" asp-area="" asp-page="/Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 @(ViewContext.RouteData.Values["page"]?.ToString() == "/Laptop" ? "active" : "")" asp-area="" asp-page="/Laptop">Laptop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 @(ViewContext.RouteData.Values["page"]?.ToString() == "/Mobile" ? "active" : "")" asp-area="" asp-page="/Mobile">Mobile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 @(ViewContext.RouteData.Values["page"]?.ToString() == "/FaqPage" ? "active" : "")" asp-area="" asp-page="/FaqPage">FAQ</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn-minimal @(ViewContext.RouteData.Values["page"]?.ToString() == "/About" ? "active" : "")" asp-area="" asp-page="/About">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container-fluid px-0 flex-grow-1">
+    <main role="main" class="pb-4">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="container py-4">
+        <div class="row g-4">
+            <div class="col-lg-4 text-center text-lg-start">
+                <a class="navbar-brand d-flex align-items-center justify-content-center justify-content-lg-start mb-2" asp-area="" asp-page="/Index">
+                    <img src="~/Logo.svg" alt="SastoTech Logo" height="60" class="me-2" asp-append-version="true">
+                    <span class="fs-4">SastoTech</span>
+                </a>
+                <p class="small text-muted mb-4">Finding you the best technology deals across Nepal. We track prices so you don't have to.</p>
+                <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+                    <a href="https://github.com/Aayush-Sigdel" class="footer-link fs-5" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" class="footer-link fs-5"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="footer-link fs-5"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <h5 class="fw-bold mb-3">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a asp-page="/Index" class="footer-link">Home</a></li>
+                    <li class="mb-2"><a asp-page="/Laptop" class="footer-link">Laptop</a></li>
+                    <li class="mb-2"><a asp-page="/Mobile" class="footer-link">Mobile</a></li>
+                    <li class="mb-2"><a asp-page="/About" class="footer-link">About Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <h5 class="fw-bold mb-3">Support</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a asp-page="/FaqPage" class="footer-link">FAQ & Help</a></li>
+                </ul>
+                <p class="small text-muted mt-4">&copy; 2026 SastoTech. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

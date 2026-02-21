@@ -1,0 +1,59 @@
+﻿@page
+@model SastoTech.Pages.IndexModel
+
+
+<div class="container py-4">
+    <div class="hero-section text-center mb-5">
+        <div class="container position-relative z-1">
+            <h1 class="display-3 fw-800 mb-3 animate__animated animate__fadeInUp">Find Your Perfect Tech at the Best Price</h1>
+            <p class="lead mb-4 fs-4 text-muted animate__animated animate__fadeInUp animate__delay-1s">We track deals from across Nepal to save you money on Laptops and Mobiles.</p>
+            <div class="d-flex justify-content-center gap-3 animate__animated animate__fadeInUp animate__delay-2s">
+                <a href="#featured" class="btn btn-primary btn-lg px-5 py-3 fw-bold shadow-none">Find Deals</a>
+                <a asp-page="/About" class="btn btn-outline-primary btn-lg px-5 py-3 shadow-none">How it Works</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="featured" class="py-5">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-2">Featured Categories</h2>
+            <p class="text-muted fs-5">Choose your next powerful companion</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-none product-card">
+                    <div class="position-relative overflow-hidden" style="height: 300px;">
+                        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80" class="card-img-top h-100 w-100 object-fit-cover" alt="Laptops">
+                        <div class="position-absolute top-0 start-0 m-4">
+                            <span class="badge-category">New Arrivals</span>
+                        </div>
+                    </div>
+                    <div class="card-body p-4">
+                        <h3 class="h3 fw-bold mb-2">Laptops</h3>
+                        <p class="text-muted mb-4">From ultrabooks to gaming powerhouses, find the perfect machine for your workflow.</p>
+                        <a asp-page="/Laptop" class="btn-minimal d-inline-flex align-items-center">
+                            Explore Laptops <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-none product-card">
+                    <div class="position-relative overflow-hidden" style="height: 300px;">
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80" class="card-img-top h-100 w-100 object-fit-cover" alt="Mobiles">
+                        <div class="position-absolute top-0 start-0 m-4">
+                            <span class="badge-category">Trending</span>
+                        </div>
+                    </div>
+                    <div class="card-body p-4">
+                        <h3 class="h3 fw-bold mb-2">Mobiles</h3>
+                        <p class="text-muted mb-4">Stay connected with the latest smartphones featuring cutting-edge camera technology.</p>
+                        <a asp-page="/Mobile" class="btn-minimal d-inline-flex align-items-center">
+                            Explore Mobiles <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
