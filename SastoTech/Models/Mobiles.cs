@@ -21,4 +21,5 @@ public class Mobiles
     public double ActualPrice { get; set; }
     public bool IsAvailable { get; set; }
     public bool IsRecordLow { get; set; }
+    public float LowestPriceEver { get; set; }
 }
