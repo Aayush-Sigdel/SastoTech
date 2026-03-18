@@ -16,7 +16,7 @@ public class Laptop : PageModel
     }
 
     public IList<Laptops> LaptopsList { get; set; } = default!;
-    
+
     public List<string> BrandList { get; set; } = new();
     public List<string> CategoryList { get; set; } = new();
     public List<string> CpuList { get; set; } = new();
@@ -57,7 +57,6 @@ public class Laptop : PageModel
 
         var query = _context.Laptops.AsQueryable();
 
-        // Show only available products
         query = query.Where(x => x.IsAvailable);
 
         if (!string.IsNullOrEmpty(SearchString))
